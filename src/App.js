@@ -12,6 +12,7 @@ import { Home } from "./Menu/Home"
 import { Download } from "./Menu/Download"
 import { Login } from "./Menu/Login"
 import { Button } from "./Menu2/Button"
+import { Card1 } from "./StaticCard/Card1"
 const style1 = {
   display: "flex",
   margin: "20px",
@@ -37,6 +38,12 @@ export default function App() {
         <div>
           <Button />
         </div>
+      </div>
+      <div style={style1}>
+        <Card1 />
+        <Card1 />
+        <Card1 />
+        <Card1 />
       </div>
     </div>
   )
