@@ -1,0 +1,85 @@
+.main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_files {
+  width: 300px;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  font-size: 24px;
+
+  padding-left: 20px;
+  border-radius: 10px;
+}
+.input_files:focus {
+  outline: 5px solid salmon;
+}
+.button_onclick {
+  width: 80px;
+  height: 50px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  font-size: 40px;
+  border-radius: 10px;
+}
+.button_onclick:focus {
+  color: white;
+  background-color: salmon;
+}
+.main_files {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h3first {
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  font-size: 24px;
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: brown;
+  padding: 20px 20px;
+}
+.h3sec {
+  width: 80px;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 20px;
+  padding-left: 20px;
+  color: brown;
+}
+.button_onclick1 {
+  width: 80px;
+  height: 50px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  font-size: 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: salmon;
+}
+.button_onclick2 {
+  width: 120px;
+  height: 50px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  font-size: 23px;
+  border-radius: 10px;
+  color: salmon;
+  background-color: white;
+}

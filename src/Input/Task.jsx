@@ -1,6 +1,6 @@
 import React from "react"
 import { TaskItem } from "./TaskItem"
-
+import style from "./Toggle.module.css"
 function Task() {
   const [query, setQuery] = React.useState("")
   const [tasks, setTasks] = React.useState([])
@@ -35,14 +35,17 @@ function Task() {
     <div>
       <h1>Tasks</h1>
 
-      <div>
+      <div className={style.main_container}>
         <input
+          className={style.input_files}
           value={query}
           onChange={handleChange}
           placeholder="Add something"
         />
+        <button className={style.button_onclick} onClick={handleAdd}>
+          +
+        </button>
       </div>
-      <button onClick={handleAdd}>Add</button>
       <div>
         {tasks.map((item, index) => {
           return (
