@@ -13,6 +13,8 @@ import { Download } from "./Menu/Download"
 import { Login } from "./Menu/Login"
 import { Button } from "./Menu2/Button"
 import { Card1 } from "./StaticCard/Card1"
+import { List } from "./List/UnorderedList"
+
 const style1 = {
   display: "flex",
   margin: "20px",
@@ -20,10 +22,12 @@ const style1 = {
 export default function App() {
   return (
     <div>
+      <List />
       <Counter />
       <Task />
       <CssModel />
       <Cards />
+
       <div style={style1}>
         <div>
           <ContactUs />
