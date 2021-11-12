@@ -18,3 +18,24 @@ export default function Counter() {
   )
 }
 //state is something that coimponent remembers
+
+// export default function Counter() {
+//   const [counter, setCounter] = React.useState(0)
+//   const handleIncrement = () => {
+//     setCounter(counter + 1)
+//     console.log(counter)
+//   }
+//   const handleDecrement = () => {
+//     setCounter(counter - 1)
+//     console.log(counter)
+//   }
+//   return (
+//     <>
+//       <h1>Counter</h1>
+//       <h2>{counter}</h2>
+
+//       <button onClick={handleIncrement}>ADD</button>
+//       <button onClick={handleDecrement}>Reduce</button>
+//     </>
+//   )
+// }
