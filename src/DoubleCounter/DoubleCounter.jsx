@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const DoubleCounter = () => {
   const [task, setTask] = React.useState(0)

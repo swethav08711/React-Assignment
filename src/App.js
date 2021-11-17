@@ -1,6 +1,6 @@
 import React from "react"
 import Counter from "./Counter/Counter"
-
+import List1 from "./List_components/List"
 import { Task } from "./Input/Task"
 import { CssModel } from "./cssModel/CssModel"
 import { Cards } from "./ReactMobileOS/Cards"
@@ -16,6 +16,7 @@ import { Button } from "./Menu2/Button"
 import { Card1 } from "./StaticCard/Card1"
 import { List } from "./List/UnorderedList"
 import DoubleCounter from "./DoubleCounter/DoubleCounter"
+import ListOfKey from "./New/ListOfKeys"
 const style1 = {
   display: "flex",
   margin: "20px",
@@ -23,6 +24,8 @@ const style1 = {
 export default function App() {
   return (
     <div>
+      <ListOfKey />
+      <List1 />
       <List />
       <DoubleCounter />
       <Counter />
